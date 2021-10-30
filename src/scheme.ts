@@ -8,6 +8,7 @@ const scheme = {
     type Task {
       id: Int!
       title: String
+      content: String
     }
     ${GQL_QUERY}
     ${GQL_MUTATION}
